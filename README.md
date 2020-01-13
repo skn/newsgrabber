@@ -4,31 +4,31 @@ It has been retired for over a decade but is put here as a piece of
 personal history.
 
 ################################################################
-#      NewsGrabber.pm Perl module README                       #
+      NewsGrabber.pm Perl module README                       #
 ################################################################
-#
-# Version    : 1.0.31
-#
-# Date       : March 30, 2002
-#
-# License    : Copyleft 2000,2001,2002 Srijith.K. All rights reserved
-#              This program is free software; you can redistribute 
-#              it and/or modify it under the same terms as Perl 
-#              iself.
-#
-# Author     : Srijith.K (srijith@srijith.net)
-#
-# Req.       : For this module to work, you will need:
-#               * Perl
-#               * LWP Perl module
-#		* XML::Parser module
-#               * Ability to run CGI scripts 
-#
-# Disclaimer : This package is provided "AS IS" and without
-#              any express or implied warranties, including,
-#              without limitation, the implied warranties of
-#              merchantibility and fitness for a particular
-#              purpose.
+
+ Version    : 1.0.31
+
+ Date       : March 30, 2002
+
+ License    : Copyleft 2000,2001,2002 Srijith.K. All rights reserved
+              This program is free software; you can redistribute 
+              it and/or modify it under the same terms as Perl 
+              iself.
+
+ Author     : Srijith.K (srijith@srijith.net)
+
+ Req.       : For this module to work, you will need:
+               * Perl
+               * LWP Perl module
+		* XML::Parser module
+               * Ability to run CGI scripts 
+
+ Disclaimer : This package is provided "AS IS" and without
+              any express or implied warranties, including,
+              without limitation, the implied warranties of
+              merchantibility and fitness for a particular
+              purpose.
 #################################################################
 Project Website : http://backendnews.sourceforge.net
 For all queries/bug submissions, please use the website.
