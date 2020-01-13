@@ -1,0 +1,9 @@
+<HTML><HEAD><TITLE>HTMLTITLE</TITLE></HEAD>
+<BODY bgColor="#ffffff" link="#000080" text="#000000" vLink="#000080">
+    <TABLE border=0 cellPadding=0 cellSpacing=0 width="100%">
+    <TR>
+    <TD bgcolor="#000000">
+    <TABLE border=0 cellPadding=4 cellSpacing=1 width="100%">
+    <TR bgColor="#b0bb9d">
+    <TD><CENTER><FONT size=2>
+    <B>Backend News Project</B></FONT></CENTER></TD></TR>

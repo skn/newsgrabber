@@ -1,0 +1,109 @@
+################################################################
+#     Using_ NewsGrabber.pm Perl module README                 #
+################################################################
+#
+# Version    : 1.0.31
+# Date       : March 30, 2002
+# License    : Copyleft  2001,2000,2002 Srijith.K. All rights reserved
+#              This program is free software; you can redistribute 
+#              it and/or modify it under the same terms as Perl 
+#              iself.
+# Author     : Srijith.K (srijith@srijith.net)
+# Disclaimer : This package is provided "AS IS" and without
+#              any expressed or implied warranties, including,
+#              without limitation, the implied warranties of
+#              merchantibility and fitness for a particular
+#              purpose.
+#################################################################
+Project Website : http://backendnews.sourceforge.net
+For all queries/bug submissions, please use the website.
+################################################################
+
+
+In this 1.0.31 version of this script that uses the NewsGrabber.pm
+Perl module. This package includes
+
+* 1 perl script newsgrabber.pl
+* 1 "update.txt" file
+* 31 ".out" files
+* 4 HTML template file
+* This README file
+
+To use the newsgrabber.pl script, you need to have the NewsGrabber.pm
+module installed and the ability to run CGI scripts.
+
+Using the script
+----------------
+1. Download this .tar.gz file into the cgi-bin dir. of your server. 
+2. Gunzip and Tar-xvf the file.
+3. chmod the newsgrabber.pl script to 755
+4. chmod the *.out files to 777
+5. chmod the update.txt file to 777
+6. chmod the .template files to 644
+7. Find out the directory in which the NewsGrabber.pm module is.
+   Let me call it /home/abc/modules/NewsGrabber
+8. Open newsgrabber.pl for editing using vi/pico/emacs etc.
+9. Change the first line of the script to point to location of Perl
+10.Fill in the "use lib 'FILL_ME!!!' " line with the path found in 7.
+11.Enjoy. In case of doubts/bugs, pester me at srijith@srijith.net
+
+
+CREDITS
+-------
+- Hackinthebox.Org,Cert.Org and TWLC.Net support contributed by 
+  Engelbert Tristram (Engelbert.Tristram@Succurit.com)
+
+
+CHANGE LOG
+----------
+Version 1.0.31
++*+*+*+*+*+*+*
+- Support for 3 more sites
+- Removed support for 2 sites
+- Fixed some typos
+
+Version 1.0.30
+*+*+*+*+*+*+*+
+- First Stable version released after Beta testing 
+
+Version Beta 2.0.30
+*+*+*+*+*+*+*+*+*+*
+- Change all calls to reflect the 2.0.x style
+- Tidied the template codes. Some missing tags added
+- More comments
+
+Version Beta 1.2.30
+*+*+*+*+*+*+*+*+*+*
+
++ Added support for:
+  - Fileforum.Betanews.com
+  - Techdirt.com
+  - Linuxtoday.com
+  - Geeknews.net
+  - Plastic.com
+  - TheRegister.co.uk
+  - Moreover.com (general) - supports all Moreover.com RSS feeds >300!!!
+  - Salon.com
++ Removed support for:
+  - Geeknews.org (Dead)
+  - N32bitsonline.com(Dead)
+  - Softwarecenter.com(Dead) 
+
+Version Beta 1.1.25
+*+*+*+*+*+*+*+*+*+*
+
++ Changed the file from Kuro5hin_org.out to the 
+  correct one - Kuro5hin_Org.out
++ Removed the commented out section of HTML code in 
+  header.template
+
+Version Beta 1.0.25
+*+*+*+*+*+*+*+*+*+*
+
++ Reflected the support for 5 new sites 
++ Corrected spellimg mistakes in README
+
+Version Beta 1.0
+*+*+*+*+*+*+*+*+
+
++ Intial release with support for 20 sites
